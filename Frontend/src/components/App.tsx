@@ -1,6 +1,10 @@
 import React from 'react';
-import Hello from 'components/Hello';
+import AppLevel1 from 'components/AppLevel1';
 
 export default function App() {
-    return <Hello compiler='Typescript' framework='React' />;
+    return (
+        <div className="container">
+            <AppLevel1 />
+        </div>
+    );
 }
