@@ -1,0 +1,54 @@
+{
+    "name": "react-with-typescript",
+    "version": "0.1.0",
+    "description": "Start building a React application with Typescript, without worrying about configuration.",
+    "repository": {
+        "url": "https://gitlab.com/monkkey/react-typescript",
+        "type": "git"
+    },
+    "author": {
+        "email": "mlaopane@gmail.com",
+        "name": "Mickaël LAO-PANE",
+        "url": "https://gitlab.com/mlaopane"
+    },
+    "main": "./dist/bundle.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack-dev-server --open"
+    },
+    "dependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "fibers": "^4.0.2",
+        "html-webpack-plugin": "^3.2.0",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "sass": "^1.26.2",
+        "webpack": "^4.42.0"
+    },
+    "devDependencies": {
+        "@types/fibers": "^3.1.0",
+        "@types/html-webpack-plugin": "^3.2.2",
+        "@types/node": "^12.12",
+        "@types/react": "^16.9.23",
+        "@types/react-dom": "^16.9.5",
+        "@types/sass": "^1.16.0",
+        "@types/webpack": "^4.4.25",
+        "@types/webpack-dev-server": "^3.10.0",
+        "awesome-typescript-loader": "^5.2.1",
+        "eslint": "^6.8.0",
+        "sass-loader": "^8.0.2",
+        "source-map-loader": "^0.2.4",
+        "ts-node": "^8.6.2",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.8.3",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3"
+    },
+    "keywords": [
+        "react",
+        "typescript",
+        "webpack",
+        "starter"
+    ],
+    "license": "MIT"
+}
