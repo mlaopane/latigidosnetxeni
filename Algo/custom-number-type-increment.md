@@ -2,7 +2,7 @@
 
 ### Instructions
 
-Imagine that you have a custom `Array<digit>` type in your app that manage numbers as an array of digits ([0-9] range). 
+Imagine that you have a custom `Array<digit>` type in your app that manage numbers as an array of digits ([0-9] range).  
 Some examples:
 
 | number | Array<digit>  |
