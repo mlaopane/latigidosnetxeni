@@ -1,0 +1,15 @@
+.github-user-search-results {
+    background-color: hsl(205, 30%, 20%);
+    color: hsl(40, 50%, 60%);
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 24px 16px;
+}
+
+.github-user-search-results pre {
+    text-align: start;
+    width: 100%;
+}
