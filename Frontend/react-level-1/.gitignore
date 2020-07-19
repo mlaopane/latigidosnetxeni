@@ -1,0 +1,8 @@
+# libraries
+node_modules
+
+# editors
+.vscode
+
+# distribution
+dist
